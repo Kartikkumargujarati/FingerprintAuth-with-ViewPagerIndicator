@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.kartik.newmalauzaiproject.ImagesActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPage"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_marginTop="30dp"
+            android:theme="@android:style/Theme.Black" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:id="@+id/indicator"
+        android:padding="10dip"
+        app:radius="4dp"
+        app:fillColor="@android:color/holo_blue_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

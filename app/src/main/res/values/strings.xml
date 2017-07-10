@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Secure Malauzai Project</string>
+    <string name="image_title">Flicker Image</string>
+    <string name="spin_dialog_msg">Loading Images...</string>
+    <string name="error_connecting_internet">Error Connecting to Internet.</string>
+    <string name="no_internet_dialog_title">Error..!!</string>
+    <string name="no_internet_dialog_msg">Internet Not Available.</string>
+    <string name="no_internet_dialog_btn">OK</string>
+    <string name="touch_sensor_title">Verify Fingerprint</string>
+</resources>
